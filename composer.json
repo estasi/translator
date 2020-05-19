@@ -1,0 +1,38 @@
+{
+    "name"             : "ampio/translator",
+    "description"      : "Provides translation of your app's messages.",
+    "keywords"         : [
+        "ampio",
+        "psr",
+        "psr-4",
+        "psr-12",
+        "translator"
+    ],
+    "minimum-stability": "stable",
+    "license"          : "BSD-3-Clause",
+    "authors"          : [
+        {
+            "name" : "Mikhail Erypalov",
+            "email": "mikaxxl@yandex.ru",
+            "role" : "developer"
+        }
+    ],
+    "config"           : {
+        "sort-packages"      : true,
+        "optimize-autoloader": true
+    },
+    "require"          : {
+        "php": "^7.4"
+    },
+    "autoload"         : {
+        "psr-4": {
+            "Ampio\\Translator\\": "src/"
+        }
+    },
+    "suggest"          : {
+        "symfony/translation"  : "^5.0 provides the ability to translate using a Symfony translator",
+        "laminas/laminas-i18n" : "^2.10 provides the ability to translate using a Laminas translator",
+        "laminas/laminas-cache": "^2.8 adds the ability to cache some working data to speed up the output of the translation result",
+        "symfony/cache"        : "^5.0 adds the ability to cache some working data to speed up the output of the translation result"
+    }
+}
