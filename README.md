@@ -1,6 +1,6 @@
-# Ampio Translator
+# Estasi Translator
 
-Ampio\Translator - internationalization system using the GNU gettext and/or 
+Estasi\Translator - internationalization system using the GNU gettext and/or 
 ICU MessageFormat libraries.
 
 Currently, there is no native implementation, you must use one of the following components 
@@ -13,7 +13,7 @@ Currently, there is no native implementation, you must use one of the following 
 ## Installation
 To install with a composer:
 ```
-composer require ampio/translator
+composer require estasi/translator
 ```
 
 ## Requirements

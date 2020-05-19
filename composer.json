@@ -1,8 +1,8 @@
 {
-    "name"             : "ampio/translator",
+    "name"             : "estasi/translator",
     "description"      : "Provides translation of your app's messages.",
     "keywords"         : [
-        "ampio",
+        "estasi",
         "psr",
         "psr-4",
         "psr-12",
@@ -26,7 +26,7 @@
     },
     "autoload"         : {
         "psr-4": {
-            "Ampio\\Translator\\": "src/"
+            "Estasi\\Translator\\": "src/"
         }
     },
     "suggest"          : {
