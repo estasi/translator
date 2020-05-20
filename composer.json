@@ -30,9 +30,7 @@
         }
     },
     "suggest"          : {
-        "symfony/translation"  : "^5.0 provides the ability to translate using a Symfony translator",
-        "laminas/laminas-i18n" : "^2.10 provides the ability to translate using a Laminas translator",
-        "laminas/laminas-cache": "^2.8 adds the ability to cache some working data to speed up the output of the translation result",
-        "symfony/cache"        : "^5.0 adds the ability to cache some working data to speed up the output of the translation result"
+        "symfony/translation" : "^5.0 provides the ability to translate using a Symfony translator",
+        "laminas/laminas-i18n": "^2.10 provides the ability to translate using a Laminas translator"
     }
 }
